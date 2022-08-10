@@ -1,0 +1,6 @@
+.searchbar_filled:after{
+    content: "";
+    background-image: url("../../icons/x-medium.svg");
+    width: 1rem;
+    height: 1rem;
+}

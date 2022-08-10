@@ -1,0 +1,15 @@
+.input_disabled {
+    background: #BAD8F5;
+    border: 0.0625rem solid #459DF5;
+}
+
+.input_disabled:after {
+    content: "";
+    background-image: url("../../icons/locked.svg");
+    width: 1rem;
+    height: 1rem;
+}
+
+.input_disabled input{
+    background: #BAD8F5;
+}

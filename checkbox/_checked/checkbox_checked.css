@@ -1,0 +1,11 @@
+.checkbox_checked::after{
+    content: '';
+    background-image: url("../../icons/checkmark.svg");
+    background-color: #459DF5;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #459DF5;
+    border-radius: 2px;
+}

@@ -1,0 +1,19 @@
+@import "input-wrapper/input-wrapper.css";
+@import "input/input.css";
+@import "searchbar/searchbar.css";
+@import "checkbox/checkbox.css";
+
+body {
+    background-color: #E5E5E5;
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-ubuntu_400-13-16{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #000000;
+}

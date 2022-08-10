@@ -1,0 +1,9 @@
+.input__text{
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+.input__text::placeholder{
+    color: #BAD8F5;
+}
