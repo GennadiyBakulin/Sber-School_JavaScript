@@ -1,7 +1,6 @@
-@import "_empty/checkbox_empty.css";
-@import "_checked/checkbox_checked.css";
+@import "__area/checkbox__area.css";
+@import "__icon/checkbox__icon.css";
 
-.checkbox{
-    width: 1rem;
-    height: 1rem;
+.checkbox {
+    position: relative;
 }

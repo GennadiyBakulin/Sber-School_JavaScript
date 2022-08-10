@@ -1,0 +1,12 @@
+.radio__area{
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background: #FFFFFF;
+    border: 0.0625rem solid #BAD8F5;
+    border-radius: 0.5rem;
+}
+
+.radio__area:focus{
+    border: 0.25rem solid #459DF5;
+}

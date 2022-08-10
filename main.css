@@ -2,6 +2,7 @@
 @import "input/input.css";
 @import "searchbar/searchbar.css";
 @import "checkbox/checkbox.css";
+@import "radio/radio.css";
 
 body {
     background-color: #E5E5E5;
