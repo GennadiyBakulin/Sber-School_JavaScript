@@ -1,0 +1,15 @@
+.button-basic_text-blue-medium{
+    width: 5.5rem;
+    height: 2rem;
+    background-color: #459DF5;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.button-basic_text-blue-medium .button-basic__text {
+    color: #FFFFFF;
+}
+
+.button-basic_text-blue-medium .button-basic__icon{
+    display: none;
+}

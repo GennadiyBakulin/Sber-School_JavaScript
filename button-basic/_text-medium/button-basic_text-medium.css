@@ -1,0 +1,15 @@
+.button-basic_text-medium{
+    width: 5.5rem;
+    height: 2rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.button-basic_text-medium .button-basic__text {
+    color: #459DF5;
+}
+
+.button-basic_text-medium .button-basic__icon{
+    display: none;
+}

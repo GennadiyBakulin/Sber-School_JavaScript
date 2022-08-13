@@ -1,0 +1,19 @@
+@import "__icon/button-basic__icon.css";
+@import "__text/button-basic__text.css";
+@import "_icon-text-blue-medium/button-basic_icon-text-blue-medium.css";
+@import "_icon-text-medium/button-basic_icon-text-medium.css";
+@import "_icon-text-medium-black/button-basic_icon-text-medium-black.css";
+@import "_text-blue-medium/button-basic_text-blue-medium.css";
+@import "_text-medium/button-basic_text-medium.css";
+@import "_text-medium-black/button-basic_text-medium-black.css";
+@import "_icon-blue-medium/button-basic_icon-blue-medium.css";
+@import "_icon-medium/button-basic_icon-medium.css";
+@import "_icon-medium-black/button-basic_icon-medium-black.css";
+
+.button-basic{
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

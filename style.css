@@ -2,12 +2,7 @@
 @import "searchbar/searchbar.css";
 @import "checkbox/checkbox.css";
 @import "radio/radio.css";
-
-body {
-    background-color: #E5E5E5;
-    padding: 1rem;
-    font-family: 'Raleway', sans-serif;
-}
+@import "button-basic/button-basic.css";
 
 .font-ubuntu_400-13-16{
     font-family: 'Ubuntu', sans-serif;
@@ -16,4 +11,8 @@ body {
     font-size: 0.8rem;
     line-height: 1rem;
     color: #000000;
+}
+
+body{
+    padding: 1rem;
 }

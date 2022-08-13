@@ -1,0 +1,15 @@
+.button-basic_text-medium-black{
+    width: 5.5rem;
+    height: 2rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.button-basic_text-medium-black .button-basic__text {
+    color: #000;
+}
+
+.button-basic_text-medium-black .button-basic__icon{
+    display: none;
+}
