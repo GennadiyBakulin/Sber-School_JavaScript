@@ -5,6 +5,7 @@
     background-color: #FFFFFF;
     border: 0.0625rem solid #BAD8F5;
     border-radius: 0.125rem;
+    box-sizing: border-box;
 }
 
 .checkbox__area:checked{

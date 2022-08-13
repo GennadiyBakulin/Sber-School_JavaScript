@@ -1,10 +1,8 @@
 @import "__text/input__text.css";
 @import "_incorrect/input_incorrect.css";
-@import "_normal/input_normal.css";
 @import "_disabled/input_disabled.css";
 @import "__field/input__field.css";
 @import "__title/input__title.css";
-@import "__icon-button/input__icon-button.css";
 @import "__icon-button-incorrect/input__icon-button-incorrect.css";
 @import "__icon-button-disabled/input__icon-button-disabled.css";
 

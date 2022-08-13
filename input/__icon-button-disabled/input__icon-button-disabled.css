@@ -12,6 +12,8 @@
 
 .input__icon-button-disabled svg{
     fill: black;
+    width: 1rem;
+    height: 1rem;
 }
 
 .input__icon-button-disabled:hover svg{
