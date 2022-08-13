@@ -7,6 +7,6 @@
     border-radius: 0.5rem;
 }
 
-.radio__area:focus{
+.radio__area:checked{
     border: 0.25rem solid #459DF5;
 }

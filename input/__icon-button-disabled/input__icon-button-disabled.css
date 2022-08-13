@@ -1,0 +1,19 @@
+.input__icon-button-disabled{
+    border: none;
+    padding: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: none;
+}
+
+.input__icon-button-disabled svg{
+    fill: black;
+}
+
+.input__icon-button-disabled:hover svg{
+    fill: #545454;
+}

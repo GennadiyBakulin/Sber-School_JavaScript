@@ -1,12 +1,8 @@
-.input_incorrect{
+.input_incorrect .input__field{
     border: 0.0625rem solid #F53152;
     background: #FFFFFF;
 }
 
-.input_incorrect:after{
-    content: "";
-    background-image: url("../../icons/x-medium.svg");
-    width: 1rem;
-    height: 1rem;
+.input_incorrect .input__icon-button-incorrect{
+    display: block;
 }
-
