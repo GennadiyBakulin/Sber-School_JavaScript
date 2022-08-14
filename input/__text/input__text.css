@@ -1,7 +1,8 @@
 .input__text{
+    box-sizing: border-box;
     border: none;
     outline: none;
-    flex-grow: 1;
+    width: 100%;
 }
 
 .input__text::placeholder{
