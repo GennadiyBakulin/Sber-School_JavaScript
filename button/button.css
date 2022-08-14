@@ -1,0 +1,22 @@
+@import "__icon/button__icon.css";
+@import "__text/button__text.css";
+@import "_medium/button_medium.css";
+@import "_small/button_small.css";
+@import "_bg-color-blue/button_bg-color-blue.css";
+@import "_bg-color-transparent/button_bg-color-transparent.css";
+@import "_icon-hidden/button_icon-hidden.css";
+@import "_text-hidden/button_text-hidden.css";
+@import "_padding-middle-icon/button_padding-middle-icon.css";
+@import "_padding-small-icon/button_padding-small-icon.css";
+@import "_text-blue/button_text-blue.css";
+@import "_text-white/button_text-white.css";
+
+.button{
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}

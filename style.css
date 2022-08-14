@@ -2,7 +2,7 @@
 @import "searchbar/searchbar.css";
 @import "checkbox/checkbox.css";
 @import "radio/radio.css";
-@import "button-basic/button-basic.css";
+@import "button/button.css";
 
 .font-ubuntu_400-13-16{
     font-family: 'Ubuntu', sans-serif;
@@ -10,7 +10,6 @@
     font-weight: 400;
     font-size: 0.8rem;
     line-height: 1rem;
-    color: #000000;
 }
 
 body{
