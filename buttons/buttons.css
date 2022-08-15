@@ -1,6 +1,7 @@
 @import "button-icon-text/button-icon-text.css";
 @import "button-text/button-text.css";
-@import "button-icon/button-icon.css";
+@import "button-icon-medium/button-icon-medium.css";
+@import "button-icon-small/button-icon-small.css";
 @import "_bg-color-blue/button_bg-color-blue.css";
 @import "_size-medium/button_size-medium.css";
 @import "_text-white/button_text-white.css";

@@ -130,24 +130,16 @@ Searchbar
         </div>
         <div class="delete-records font-ubuntu_400-13-16">
             Удалить n записей?
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_small button_text-blue button_icon-hidden">
-                <svg class="button__icon" viewBox="0 0 16 16"  stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 14.5H15" fill="none"/>
-                    <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
-                </svg>
-                <span class="button__text">Удалить</span>
+            <button class="button-text font-ubuntu_400-13-16 button_size-small button_text-blue">
+                Удалить
             </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-blue button_small button_text-white button_icon-hidden">
-                <svg class="button__icon" viewBox="0 0 16 16" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 14.5H15" fill="none"/>
-                    <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
-                </svg>
-                <span class="button__text">Отмена</span>
+            <button class="button-text font-ubuntu_400-13-16 button_bg-color-blue button_size-small button_text-white">
+                Отмена
             </button>
         </div>
         <div class="theme-switcher font-ubuntu_400-13-16">
             Выберите тему
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_small button_text-blue">
+            <button class="button-icon-text font-ubuntu_400-13-16 button_size-small button_text-blue">
                 <svg class="button__icon" viewBox="0 0 16 16" fill="#459DF5" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="4" stroke="none"/>
                     <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -159,17 +151,16 @@ Searchbar
                     <path d="M3.5 14H2L2 12.5L3.5 11L5 12.5L3.5 14Z" stroke="none"/>
                     <path d="M14 3.5V2L12.5 2L11 3.5L12.5 5L14 3.5Z" stroke="none"/>
                 </svg>
-                <span class="button__text">Светлая</span>
+                Светлая
             </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-blue button_small button_text-white">
+            <button class="button-icon-text font-ubuntu_400-13-16 button_bg-color-blue button_size-small button_text-white">
                 <svg class="button__icon" viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 15C12.0269 15 15.5 11.5021 15 7.5C14.7688 10.0468 12.6071 12 10 12C7.23858 12 5 9.76142 5 7C5 4.23858 7.23858 2 10 2C11 2 12 2.5 12 2.5C11 1.5 10 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z" stroke="none"/>
                 </svg>
-                <span class="button__text">Темная</span>
+                Темная
             </button>
         </div>
-        <div class="multiple-status">
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
+        <div class="multiple-status font-ubuntu_400-13-16">
                 <span class="checkbox">
                         <label>
                             <input class="checkbox__area" type="checkbox"/>
@@ -179,8 +170,6 @@ Searchbar
                             <span class="checkbox__text">Новый</span>
                         </label>
                 </span>
-            </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
                 <span class="checkbox">
                     <label>
                         <input class="checkbox__area" type="checkbox"/>
@@ -190,8 +179,6 @@ Searchbar
                         <span class="checkbox__text">Расчет</span>
                     </label>
                 </span>
-            </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
                 <span class="checkbox">
                     <label>
                         <input class="checkbox__area" type="checkbox"/>
@@ -201,8 +188,6 @@ Searchbar
                         <span class="checkbox__text">Подтвержден</span>
                     </label>
                 </span>
-            </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
                 <span class="checkbox">
                     <label>
                         <input class="checkbox__area" type="checkbox"/>
@@ -212,8 +197,6 @@ Searchbar
                         <span class="checkbox__text">Отложен</span>
                     </label>
                 </span>
-            </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
                 <span class="checkbox">
                     <label>
                         <input class="checkbox__area" type="checkbox"/>
@@ -223,8 +206,6 @@ Searchbar
                         <span class="checkbox__text">Выполнен</span>
                     </label>
                 </span>
-            </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
                 <span class="checkbox">
                     <label>
                         <input class="checkbox__area" type="checkbox"/>
@@ -234,26 +215,25 @@ Searchbar
                         <span class="checkbox__text">Отменен</span>
                     </label>
                 </span>
-            </button>
         </div>
         <div class="single-status">
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
-                <span class="button__text">Новый</span>
+            <button class="button-text font-ubuntu_400-13-16 button_size-medium">
+                Новый
             </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
-                <span class="button__text">Расчет</span>
+            <button class="button-text font-ubuntu_400-13-16 button_size-medium">
+                Расчет
             </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
-                <span class="button__text">Подтвержден</span>
+            <button class="button-text font-ubuntu_400-13-16 button_size-medium">
+                Подтвержден
             </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
-                <span class="button__text">Отложен</span>
+            <button class="button-text font-ubuntu_400-13-16 button_size-medium">
+                Отложен
             </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
-                <span class="button__text">Выполнен</span>
+            <button class="button-text font-ubuntu_400-13-16 button_size-medium">
+                Выполнен
             </button>
-            <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
-                <span class="button__text">Отменен</span>
+            <button class="button-text font-ubuntu_400-13-16 button_size-medium">
+                Отменен
             </button>
         </div>
     </div>
@@ -289,19 +269,51 @@ Searchbar
         <button class="button-text font-ubuntu_400-13-16 button_size-medium">
             Text here
         </button>
-        <button class="button-icon font-ubuntu_400-13-16 button_bg-color-blue">
+        <button class="button-icon-medium font-ubuntu_400-13-16 button_bg-color-blue">
             <svg class="button__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6 14.5H15" fill="none"/>
                 <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
             </svg>
         </button>
-        <button class="button-icon font-ubuntu_400-13-16">
+        <button class="button-icon-medium font-ubuntu_400-13-16">
             <svg class="button__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6 14.5H15" fill="none"/>
                 <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
             </svg>
         </button>
-        <button class="button-icon font-ubuntu_400-13-16">
+        <button class="button-icon-medium font-ubuntu_400-13-16">
+            <svg class="button__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 14.5H15" fill="none"/>
+                <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
+            </svg>
+        </button>
+        <button class="button-icon-text font-ubuntu_400-13-16 button_bg-color-blue button_size-small button_text-white">
+            <svg class="button__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 14.5H15" fill="none"/>
+                <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
+            </svg>
+            Text here
+        </button>
+        <button class="button-icon-text font-ubuntu_400-13-16 button_size-small button_text-blue">
+            <svg class="button__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 14.5H15" fill="none"/>
+                <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
+            </svg>
+            Text here
+        </button>
+        <button class="button-text font-ubuntu_400-13-16 button_bg-color-blue button_size-small button_text-white">
+            Text here
+        </button>
+        <button class="button-text font-ubuntu_400-13-16 button_size-small button_text-blue">
+            Text here
+        </button>
+        <button class="button-icon-small font-ubuntu_400-13-16 button_bg-color-blue">
+            <svg class="button__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 14.5H15" fill="none"/>
+                <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
+            </svg>
+        </button>
+        <button class="button-icon-small font-ubuntu_400-13-16">
             <svg class="button__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6 14.5H15" fill="none"/>
                 <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
