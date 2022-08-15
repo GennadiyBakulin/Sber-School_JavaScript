@@ -3,7 +3,12 @@
 @import "checkbox/checkbox.css";
 @import "radio/radio.css";
 @import "button/button.css";
-@import "drop-downs/drop-downs.css";
+@import "set-dropdowns/go-to-page/go-to-page.css";
+@import "set-dropdowns/multiple-status/multiple-status.css";
+@import "set-dropdowns/delete-records/delete-records.css";
+@import "set-dropdowns/theme-switcher/theme-switcher.css";
+@import "set-dropdowns/single-status/single-status.css";
+@import "buttons/buttons.css";
 
 .font-ubuntu_400-13-16{
     font-family: 'Ubuntu', sans-serif;
@@ -15,4 +20,68 @@
 
 body{
     padding: 1rem;
+    background-color: #e0e0e0;
+}
+
+.input-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22rem;
+    height: 22.5rem;
+    border: 0.1rem dashed #8055FF;
+    border-radius: 0.5rem;
+    padding: 3rem;
+}
+
+.searchbar-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22rem;
+    height: 12rem;
+    border: 0.1rem dashed #8055FF;
+    border-radius: 0.5rem;
+    padding: 3rem;
+}
+
+.checkbox-radio-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 6.5rem;
+    height: 4rem;
+    border: 0.1rem dashed #8055FF;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.dropdowns-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 42rem;
+    height: 32rem;
+    border: 0.1rem dashed #8055FF;
+    border-radius: 0.5rem;
+    padding: 3rem;
+}
+
+.buttons-wrapper{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1rem;
+    width: 36rem;
+    height: 23.5rem;
+    border: 0.1rem dashed #8055FF;
+    border-radius: 0.5rem;
+    padding: 3rem;
 }
