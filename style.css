@@ -9,17 +9,14 @@
 @import "set-dropdowns/single-status/single-status.css";
 @import "buttons/buttons.css";
 
-.font-ubuntu_400-13-16{
+body{
+    padding: 1rem;
+    background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 0.8rem;
     line-height: 1rem;
-}
-
-body{
-    padding: 1rem;
-    background-color: #e0e0e0;
 }
 
 .input-wrapper{
