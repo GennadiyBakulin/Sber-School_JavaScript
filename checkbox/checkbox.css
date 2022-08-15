@@ -1,6 +1,14 @@
 @import "__area/checkbox__area.css";
 @import "__icon/checkbox__icon.css";
+@import "__text/checkbox__text.css";
 
 .checkbox {
     position: relative;
+    display: inline-block;
+}
+
+.checkbox label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

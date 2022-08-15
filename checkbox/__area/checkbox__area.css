@@ -12,3 +12,7 @@
     background-color: #459DF5;
     border-color: #459DF5;
 }
+
+.checkbox__area:checked~.checkbox__text{
+    color: #459DF5;
+}

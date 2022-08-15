@@ -96,19 +96,19 @@ Searchbar
     <hr>
     Checkbox и Radio
     <br>
-    <div class="checkbox">
+    <span class="checkbox">
         <label>
             <input class="checkbox__area" type="checkbox"/>
             <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
             </svg>
         </label>
-    </div>
-    <div class="radio">
+    </span>
+    <span class="radio">
         <label>
             <input class="radio__area" type="radio"/>
         </label>
-    </div>
+    </span>
     <hr>
     Buttons
     <br>
@@ -303,14 +303,14 @@ Searchbar
     <div class="drop-downs font-ubuntu_400-13-16 drop-downs_padding-8-0 drop-downs_inner-left-position">
         <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
             <span class="checkbox">
-                <label>
-                    <input class="checkbox__area" type="checkbox"/>
-                    <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                    </svg>
-                </label>
+                    <label>
+                        <input class="checkbox__area" type="checkbox"/>
+                        <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                        </svg>
+                        <span class="checkbox__text">Новый</span>
+                    </label>
             </span>
-            <span class="button__text">Новый</span>
         </button>
         <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
             <span class="checkbox">
@@ -319,9 +319,9 @@ Searchbar
                     <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                     </svg>
+                    <span class="checkbox__text">Расчет</span>
                 </label>
             </span>
-            <span class="button__text">Расчет</span>
         </button>
         <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
             <span class="checkbox">
@@ -330,9 +330,9 @@ Searchbar
                     <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                     </svg>
+                    <span class="checkbox__text">Подтвержден</span>
                 </label>
             </span>
-            <span class="button__text">Подтвержден</span>
         </button>
         <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
             <span class="checkbox">
@@ -341,9 +341,9 @@ Searchbar
                     <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                     </svg>
+                    <span class="checkbox__text">Отложен</span>
                 </label>
             </span>
-            <span class="button__text">Отложен</span>
         </button>
         <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
             <span class="checkbox">
@@ -352,9 +352,9 @@ Searchbar
                     <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                     </svg>
+                    <span class="checkbox__text">Выполнен</span>
                 </label>
             </span>
-            <span class="button__text">Выполнен</span>
         </button>
         <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium">
             <span class="checkbox">
@@ -363,9 +363,9 @@ Searchbar
                     <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                     </svg>
+                    <span class="checkbox__text">Отменен</span>
                 </label>
             </span>
-            <span class="button__text">Отменен</span>
         </button>
     </div>
     <hr>
@@ -391,21 +391,5 @@ Searchbar
         </button>
     </div>
     <br>
-    PageHeader
-    <hr>
-    <button class="button font-ubuntu_400-13-16 button_bg-color-transparent button_medium button_text-blue">
-        <svg class="button__icon" viewBox="0 0 16 16" fill="#459DF5" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="4" stroke="none"/>
-            <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
-            <path d="M1 9L0 8L1 7H3V9H1Z" stroke="none"/>
-            <path d="M7 15L8 16L9 15V13H7V15Z" stroke="none"/>
-            <path d="M7 1L8 0L9 1V3H7V1Z" stroke="none"/>
-            <path d="M12.5 14H14L14 12.5L12.5 11L11 12.5L12.5 14Z" stroke="none"/>
-            <path d="M2 3.5L2 2L3.5 2L5 3.5L3.5 5L2 3.5Z" stroke="none"/>
-            <path d="M3.5 14H2L2 12.5L3.5 11L5 12.5L3.5 14Z" stroke="none"/>
-            <path d="M14 3.5V2L12.5 2L11 3.5L12.5 5L14 3.5Z" stroke="none"/>
-        </svg>
-        <span class="button__text">Светлая тема</span>
-    </button>
 </body>
 </html>
