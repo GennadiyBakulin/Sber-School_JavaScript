@@ -1,7 +1,6 @@
 @import "__text/searchbar__text.css";
 @import "_filled/searchbar_filled.css";
 @import "__icon-search/searchbar__icon-search.css";
-@import "__icon-button-filled/searchbar__icon-button-filled.css";
 
 .searchbar{
     display: flex;
@@ -11,7 +10,11 @@
     gap: 0.25rem;
     height: 2rem;
     border-radius: 0.25rem;
-    border: 0.0625rem solid #459DF5;
-    background: #FFFFFF;
+    border: 0.0625rem solid var(--color-style-blue);
+    background-color: var(--color-style-white);
     box-sizing: border-box;
+}
+
+.searchbar .button-icon-small{
+    display: none;
 }

@@ -3,5 +3,6 @@
     width: 1rem;
     top: 0;
     left: 0;
-    fill: #FFFFFF;
+    fill: var(--checkbox-icon-fill-color);
+    opacity: 0;
 }

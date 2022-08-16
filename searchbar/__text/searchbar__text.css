@@ -2,9 +2,10 @@
     box-sizing: border-box;
     border: none;
     outline: none;
+    background-color: var(--color-style-white);
     width: 100%;
 }
 
 .searchbar__text::placeholder{
-    color: #BAD8F5;
+    color: var(--color-style-light-blue);
 }

@@ -1,12 +1,12 @@
-.input_disabled .input__field{
+.input_disabled .input__area{
     background: #BAD8F5;
     border: 0.0625rem solid #459DF5;
 }
 
-.input_disabled .input__text{
+.input_disabled .input__field-center{
     background: #BAD8F5;
 }
 
-.input_disabled .input__icon-button-disabled{
-    display: block;
+.input_disabled .input__field-right{
+    display: block !important;
 }

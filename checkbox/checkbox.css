@@ -1,5 +1,5 @@
-@import "__area/checkbox__area.css";
 @import "__icon/checkbox__icon.css";
+@import "__area/checkbox__area.css";
 @import "__text/checkbox__text.css";
 
 .checkbox {

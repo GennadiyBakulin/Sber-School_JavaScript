@@ -9,14 +9,60 @@
 @import "set-dropdowns/single-status/single-status.css";
 @import "buttons/buttons.css";
 
-body{
-    padding: 1rem;
-    background-color: #e0e0e0;
+    /*   ----- Color Styles -----------------------------------------------------------------    */
+:root{
+    --color-style-red: #F53152;
+    --color-style-orange: #FF8C56;
+    --color-style-green: #0FB864;
+    --color-style-blue: #459DF5;
+    --dropdown-shadow-background: #C4C4C4;
+    --form-elevation-shadow-box: 0 0 4rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.15), 0 0 0.25rem rgba(0, 0, 0, 0.1);
+    --checkbox-icon-fill-color: #fff;
+}
+
+.theme-day{
+    --color-text-primary: #000;
+    --color-style-black: #000000;
+    --color-style-white: #FFFFFF;
+    --color-style-light-blue: #BAD8F5;
+    --color-style-white-blue: #EBF0F5;
+    --color-style-shade-background: rgba(0, 0, 0, 0.15);
+    --dropdown-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1), 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1), 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
+}
+
+.theme-night{
+    --color-text-primary: #BCC4CC;
+    --color-style-black: #BCC4CC;
+    --color-style-white: #2B2D33;
+    --color-style-light-blue: #454E52;
+    --color-style-white-blue: #171B1F;
+    --color-style-shade-background: rgba(0, 0, 0, 0.3);
+    --dropdown-box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2), 0 0.375rem 0.75rem rgba(0, 0, 0, 0.3), 0 0.25rem 0.25rem rgba(0, 0, 0, 0.4);
+}
+    /*   ----- Text Styles --------------------------------------------------------------------    */
+.headline-font{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 2rem;
+    letter-spacing: -0.0125rem;
+    color: var(--color-text-primary);
+}
+
+.body-font{
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 0.8125rem;
     line-height: 1rem;
+    color: var(--color-text-primary);
+}
+    /* ------------------------------------------------------------------------------------------- */
+
+body{
+    padding: 1rem;
+    background-color: #e0e0e0;
 }
 
 .input-wrapper{
@@ -25,7 +71,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 22rem;
-    height: 22.5rem;
+    height: 30rem;
     border: 0.1rem dashed #8055FF;
     border-radius: 0.5rem;
     padding: 3rem;
@@ -59,7 +105,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-content: space-between;
+    align-content: stretch;
     align-items: center;
     gap: 2rem;
     width: 42rem;
