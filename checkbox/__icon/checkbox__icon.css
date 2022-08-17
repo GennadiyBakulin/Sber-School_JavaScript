@@ -3,6 +3,6 @@
     width: 1rem;
     top: 0;
     left: 0;
-    fill: var(--checkbox-icon-fill-color);
+    fill: var(--color-style-white);
     opacity: 0;
 }

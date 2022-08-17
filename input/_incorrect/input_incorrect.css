@@ -1,9 +1,4 @@
-.input_incorrect .input__area{
-    border: 0.0625rem solid #F53152;
-    background: #FFFFFF;
-}
-
-.input_incorrect .input__field-right{
-    display: block !important;
-    stroke: var(--color-style-light-blue);
+.input_incorrect .input__field{
+    border: 0.0625rem solid var(--color-style-red);
+    background-color: var(--color-style-white);
 }

@@ -1,11 +1,12 @@
 @import "__field-center/input__field-center.css";
-@import "_incorrect/input_incorrect.css";
-@import "_disabled/input_disabled.css";
-@import "__area/input__area.css";
+@import "__field/input__field.css";
 @import "__title/input__title.css";
 @import "__field-left/input__field-left.css";
 @import "__field-right/input__field-right.css";
+@import "_incorrect/input_incorrect.css";
+@import "_disabled/input_disabled.css";
+@import "_empty/input_empty.css";
 
-.input .input__field-right{
- display: none;
+.input .input__field-right button:last-child{
+    display: none;
 }

@@ -10,10 +10,11 @@
     box-sizing: border-box;
 }
 
-.single-status .button-text{
+.single-status .button{
     justify-content: flex-start;
+    align-self: stretch;
 }
 
-.single-status .button-text:active{
-    color: #459DF5;
+.single-status .button:active{
+    color: var(--color-style-blue);
 }

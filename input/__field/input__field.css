@@ -1,4 +1,4 @@
-.input__area{
+.input__field{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -7,6 +7,6 @@
     gap: 0.25rem;
     height: 2rem;
     border-radius: 0.25rem;
-    border: 0.0625rem solid #459DF5;
-    background: #FFFFFF;
+    border: 0.0625rem solid var(--color-style-blue);
+    background-color: var(--color-style-white);
 }

@@ -1,6 +1,6 @@
 @import "__text/searchbar__text.css";
-@import "_filled/searchbar_filled.css";
 @import "__icon-search/searchbar__icon-search.css";
+@import "_filled/searchbar_filled.css";
 
 .searchbar{
     display: flex;
@@ -15,6 +15,6 @@
     box-sizing: border-box;
 }
 
-.searchbar .button-icon-small{
+.searchbar .button{
     display: none;
 }

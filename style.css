@@ -7,7 +7,8 @@
 @import "set-dropdowns/delete-records/delete-records.css";
 @import "set-dropdowns/theme-switcher/theme-switcher.css";
 @import "set-dropdowns/single-status/single-status.css";
-@import "buttons/buttons.css";
+@import "buttons/button.css";
+@import "icon/icon.css";
 
     /*   ----- Color Styles -----------------------------------------------------------------    */
 :root{
@@ -17,11 +18,9 @@
     --color-style-blue: #459DF5;
     --dropdown-shadow-background: #C4C4C4;
     --form-elevation-shadow-box: 0 0 4rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.15), 0 0 0.25rem rgba(0, 0, 0, 0.1);
-    --checkbox-icon-fill-color: #fff;
 }
 
 .theme-day{
-    --color-text-primary: #000;
     --color-style-black: #000000;
     --color-style-white: #FFFFFF;
     --color-style-light-blue: #BAD8F5;
@@ -31,7 +30,6 @@
 }
 
 .theme-night{
-    --color-text-primary: #BCC4CC;
     --color-style-black: #BCC4CC;
     --color-style-white: #2B2D33;
     --color-style-light-blue: #454E52;
@@ -47,7 +45,7 @@
     font-size: 1.625rem;
     line-height: 2rem;
     letter-spacing: -0.0125rem;
-    color: var(--color-text-primary);
+    color: var(--color-style-black);
 }
 
 .body-font{
@@ -56,13 +54,13 @@
     font-weight: 400;
     font-size: 0.8125rem;
     line-height: 1rem;
-    color: var(--color-text-primary);
+    color: var(--color-style-black);
 }
     /* ------------------------------------------------------------------------------------------- */
 
 body{
     padding: 1rem;
-    background-color: #e0e0e0;
+    background-color: var(--color-style-white);
 }
 
 .input-wrapper{
@@ -71,8 +69,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 22rem;
-    height: 30rem;
-    border: 0.1rem dashed #8055FF;
+    height: 22.5rem;
+    border: 0.1rem dashed #7B61FF;
     border-radius: 0.5rem;
     padding: 3rem;
 }
@@ -82,9 +80,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 22rem;
-    height: 12rem;
-    border: 0.1rem dashed #8055FF;
+    width: 24rem;
+    height: 14rem;
+    border: 0.1rem dashed #7B61FF;
     border-radius: 0.5rem;
     padding: 3rem;
 }
@@ -95,7 +93,7 @@ body{
     justify-content: space-between;
     width: 6.5rem;
     height: 4rem;
-    border: 0.1rem dashed #8055FF;
+    border: 0.1rem dashed #7B61FF;
     border-radius: 0.5rem;
     padding: 1.5rem;
 }
@@ -110,7 +108,7 @@ body{
     gap: 2rem;
     width: 42rem;
     height: 32rem;
-    border: 0.1rem dashed #8055FF;
+    border: 0.1rem dashed #7B61FF;
     border-radius: 0.5rem;
     padding: 3rem;
 }
@@ -120,10 +118,10 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     width: 36rem;
     height: 23.5rem;
-    border: 0.1rem dashed #8055FF;
+    border: 0.1rem dashed #7B61FF;
     border-radius: 0.5rem;
     padding: 3rem;
 }

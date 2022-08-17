@@ -1,4 +1,4 @@
-.searchbar_filled .button-icon-small{
-    display: block !important;
+.searchbar_filled .button{
+    display: inline !important;
     stroke: var(--color-style-light-blue);
 }

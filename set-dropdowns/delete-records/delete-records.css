@@ -1,7 +1,7 @@
 .delete-records{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 1rem;
     gap: 0.5rem;
     width: 10rem;
@@ -9,4 +9,8 @@
     box-shadow: var(--dropdown-box-shadow);
     border-radius: 0.5rem;
     box-sizing: border-box;
+}
+
+.delete-records .button{
+    align-self: stretch;
 }
