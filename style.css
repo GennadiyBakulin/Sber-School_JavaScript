@@ -45,7 +45,6 @@
     font-size: 1.625rem;
     line-height: 2rem;
     letter-spacing: -0.0125rem;
-    color: var(--color-style-black);
 }
 
 .body-font{
@@ -54,14 +53,139 @@
     font-weight: 400;
     font-size: 0.8125rem;
     line-height: 1rem;
-    color: var(--color-style-black);
 }
     /* ------------------------------------------------------------------------------------------- */
 
 body{
-    padding: 1rem;
     background-color: var(--color-style-white);
 }
+
+*{
+    box-sizing: border-box;
+}
+    /*------------------Стили для админ панели-------------------------*/
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100rem;
+    height: 49rem;
+    background: var(--color-style-white);
+    box-shadow: 0 2rem 8rem rgba(0, 0, 0, 0.5), 0 1rem 2rem rgba(0, 0, 0, 0.34), 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+    margin: 4.5rem auto;
+    padding: 2rem 3rem 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+.header__title{
+    color: var(--color-style-black);
+}
+
+.filter-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+.filter-row__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+.filter-row__search-item-group{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 38rem;
+}
+
+.filter-row__search-item-group .searchbar{
+    flex-grow: 1;
+}
+
+.filter-row__filter-item-group{
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    height: 5.5rem;
+    background-color: var(--color-style-white-blue);
+    border-radius: 0.5rem;
+}
+.filter-row__registration-date{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    width: 18rem;
+}
+.filter-row__registration-date .input{
+    flex-basis: 50%;
+}
+.filter-row__order-status{
+    width: 12rem;
+}
+
+.filter-row__order-amount{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    width: 16rem;
+}
+.filter-row__order-amount .input{
+    flex-basis: 50%;
+}
+.table-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.table-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 2.5rem;
+    background: var(--color-style-blue);
+}
+.table-header__content{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0.5rem;
+    height: 2.5rem;
+}
+.table-header__botline{
+    width: 67.5rem;
+    border: 1px solid var(--color-style-white-blue);
+}
+.table-body{
+    width: 100%;
+    height: 27.5rem;
+}
+
+.table-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    height: 2.5rem;
+    align-self: stretch;
+    background-color: var(--color-style-white-blue);
+}
+
+    /*-----------------------------------------------------------------*/
 
 .input-wrapper{
     box-sizing: border-box;
