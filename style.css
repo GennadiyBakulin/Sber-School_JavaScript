@@ -88,14 +88,14 @@ body{
     color: var(--color-style-black);
 }
 
-.filter-row{
+.search{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
     width: 100%;
 }
-.filter-row__header{
+.search__top-panel{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,79 +103,95 @@ body{
     height: 2rem;
 }
 
-.filter-row__search-item-group{
+.search__search-wrapper{
     display: flex;
     align-items: flex-start;
     gap: 1rem;
     width: 38rem;
 }
 
-.filter-row__search-item-group .searchbar{
+.search__search-wrapper .searchbar{
     flex-grow: 1;
 }
 
-.filter-row__filter-item-group{
+.search__hidden-panel{
+    background-color: var(--color-style-white-blue);
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.filters{
     display: flex;
     align-items: flex-end;
     padding: 1rem;
     gap: 1rem;
     width: 100%;
     height: 5.5rem;
-    background-color: var(--color-style-white-blue);
-    border-radius: 0.5rem;
 }
-.filter-row__registration-date{
+
+.filters__date-registration{
     display: flex;
     align-items: flex-end;
     gap: 0.5rem;
     width: 18rem;
 }
-.filter-row__registration-date .input{
+.filters__date-registration .input{
     flex-basis: 50%;
 }
-.filter-row__order-status{
+.filters__order-status{
     width: 12rem;
 }
 
-.filter-row__order-amount{
+.filters__order-amount{
     display: flex;
     align-items: flex-end;
     gap: 0.5rem;
     width: 16rem;
 }
-.filter-row__order-amount .input{
+.filters__order-amount .input{
     flex-basis: 50%;
 }
-.table-wrapper{
+.orders-table{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
 }
-.table-header{
+.orders-table__header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
     height: 2.5rem;
     background: var(--color-style-blue);
+    color: var(--color-style-white-blue);
 }
-.table-header__content{
+.orders-table-content-row{
     display: flex;
     align-items: flex-start;
     padding: 0 0.5rem;
     height: 2.5rem;
-}
-.table-header__botline{
-    width: 67.5rem;
-    border: 1px solid var(--color-style-white-blue);
-}
-.table-body{
     width: 100%;
-    height: 27.5rem;
+    border-bottom: 0.0625rem solid var(--color-style-white-blue);
+}
+/*.orders-table__botline{*/
+/*    width: 67.5rem;*/
+/*    border: 1px solid var(--color-style-white-blue);*/
+/*}*/
+.orders-table__body{
+    width: 100%;
+    min-height: 27.5rem;
+    color: var(--color-style-black);
+}
+.orders-table__list-orders-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-height: 27.5rem;
+    overflow-y: auto;
 }
 
-.table-footer{
+.orders-table__footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,6 +199,34 @@ body{
     height: 2.5rem;
     align-self: stretch;
     background-color: var(--color-style-white-blue);
+}
+.orders-table_cell{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0.75rem 0.5rem;
+    gap: 0.25rem;
+}
+.orders-table__checkbox-select{
+    min-width: 2rem;
+}
+.orders-table__id{
+    min-width: 6.75rem;
+}
+.orders-table__date{
+    min-width: 11rem;
+}
+.orders-table__status{
+    min-width: 11rem;
+}
+.orders-table__number-positions{
+    min-width: 6rem;
+}
+.orders-table__amount{
+    min-width: 8rem;
+}
+.orders-table__people-name{
+    width: 100%;
 }
 
     /*-----------------------------------------------------------------*/

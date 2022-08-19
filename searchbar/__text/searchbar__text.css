@@ -4,6 +4,7 @@
     outline: none;
     background-color: var(--color-style-white);
     width: 100%;
+    color: var(--color-style-black);
 }
 
 .searchbar__text::placeholder{
