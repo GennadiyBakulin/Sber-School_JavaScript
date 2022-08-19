@@ -16,6 +16,7 @@
     --color-style-orange: #FF8C56;
     --color-style-green: #0FB864;
     --color-style-blue: #459DF5;
+    --color-style-white-day-night: #FFFFFF;
     --dropdown-shadow-background: #C4C4C4;
     --form-elevation-shadow-box: 0 0 4rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.15), 0 0 0.25rem rgba(0, 0, 0, 0.1);
 }
@@ -192,13 +193,41 @@ body{
 }
 
 .orders-table__footer{
+    align-self: stretch;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
     height: 2.5rem;
-    align-self: stretch;
     background-color: var(--color-style-white-blue);
+}
+.orders-table__modification-list-orders{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 24rem;
+}
+.orders-table_selection-records{
+    color: var(--color-style-blue);
+}
+.orders-table_button-delete-records .button{
+    color: var(--color-style-white-day-night);
+}
+.pages{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 10rem;
+}
+.pages__select-pages{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    width: 8.25rem;
+    color: var(--color-style-blue);
+}
+.pages__current-pages{
+
 }
 .orders-table_cell{
     display: flex;

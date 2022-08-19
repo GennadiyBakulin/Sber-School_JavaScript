@@ -12,6 +12,7 @@
 @import "_padding-small/button_padding-small.css";
 @import "_padding-small-square/button_padding-small-square.css";
 @import "_padding-medium-square/button_padding-medium-square.css";
+@import "_bg-color-red/button_bg-color-red.css";
 
 .button{
     border: none;

@@ -3,6 +3,7 @@
 @import "icon_color-theme-blue.css";
 @import "icon_color-theme-white.css";
 @import "icon_color-theme-orange.css";
+@import "icon_color-theme-white-day-night.css";
 
 .icon{
     width: 1rem;
