@@ -1,0 +1,26 @@
+@import "__header/orders-table__header.css";
+@import "__row/orders-table__row.css";
+@import "__body/orders-table__body.css";
+@import "__list-orders-wrapper/orders-table__list-orders-wrapper.css";
+@import "__footer/orders-table__footer.css";
+@import "__modification-list-orders/orders-table__modification-list-orders.css";
+@import "__selection-records/orders-table__selection-records.css";
+@import "__button-delete-records/orders-table__button-delete-records.css";
+@import "__cell/orders-table__cell.css";
+@import "__checkbox-select/orders-table__checkbox-select.css";
+@import "__id/orders-table__id.css";
+@import "__date/orders-table__date.css";
+@import "__status/orders-table__status.css";
+@import "__number-positions/orders-table__number-positions.css";
+@import "__amount/orders-table__amount.css";
+@import "__people-name/orders-table__people-name.css";
+
+.orders-table{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    align-self: end;
+}

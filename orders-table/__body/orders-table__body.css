@@ -1,0 +1,6 @@
+.orders-table__body{
+    width: 100%;
+    height: calc(100vh - 21.5rem);
+    color: var(--color-style-black);
+    overflow-y: auto;
+}

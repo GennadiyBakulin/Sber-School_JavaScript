@@ -1,0 +1,9 @@
+.search__search-wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 38rem;
+}
+.search__search-wrapper .searchbar{
+    flex-grow: 1;
+}

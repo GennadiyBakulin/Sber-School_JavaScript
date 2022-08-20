@@ -1,0 +1,27 @@
+@import "__header/order-form__header.css";
+@import "__content/order-form__content.css";
+@import "__content-wrapper/order-form__content-wrapper.css";
+@import "__content-scroll/order-form__content-scroll.css";
+@import "__card-orders/order-form__card-orders.css";
+@import "__card-orders-header/order-form__card-orders-header.css";
+@import "__card-orders-cell-article/order-form__card-orders-cell-article.css";
+@import "__card-orders-cell-name/order-form__card-orders-cell-name.css";
+@import "__card-orders-cell-price/order-form__card-orders-cell-price.css";
+@import "__card-orders-body/order-form__card-orders-body.css";
+@import "__card-orders-body-row/order-form__card-orders-body-row.css";
+@import "__card-orders-footer/order-form__card-orders-footer.css";
+@import "__order-amount/order-form__order-amount.css";
+@import "__footer/order-form__footer.css";
+@import "__save-control/order-form__save-control.css";
+@import "__error-message/order-form__error-message.css";
+
+.order-form{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30rem;
+    height: 49rem;
+    background: var(--color-style-white);
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.15), 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}

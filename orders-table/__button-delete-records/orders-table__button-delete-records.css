@@ -1,0 +1,15 @@
+.orders-table__button-delete-records{
+    position: relative;
+}
+.orders-table__button-delete-records>.button{
+    color: var(--color-style-white-day-night);
+}
+.orders-table__button-delete-records .delete-records{
+    display: none;
+    position: absolute;
+    top: -7.2rem;
+    left: 0;
+}
+.orders-table__button-delete-records>.button:hover+.delete-records{
+    display: flex;
+}

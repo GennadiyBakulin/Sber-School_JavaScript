@@ -1,0 +1,11 @@
+@import "__top-panel/search__top-panel.css";
+@import "__search-wrapper/search__search-wrapper.css";
+@import "__hidden-panel/search__hidden-panel.css";
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
