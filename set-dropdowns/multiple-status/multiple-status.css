@@ -9,4 +9,9 @@
     box-shadow: var(--dropdown-box-shadow);
     border-radius: 0.5rem;
     box-sizing: border-box;
+    color: var(--color-style-black);
+}
+.multiple-status .checkbox{
+    justify-content: flex-start;
+    align-self: stretch;
 }

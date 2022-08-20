@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="normalize.css" >
   <link rel="stylesheet" type="text/css" href="style.css" >
 </head>
-<body class="theme-day body-font">
+<body class="theme-night body-font">
     <div class="main-wrapper">
         <div class="header">
             <div class="header__title headline-font">Список заказов</div>
@@ -175,6 +175,62 @@
                                     <path d="M5 6H11V6.5L8.25 11H7.75L5 6.5V6Z" stroke="none"/>
                                 </svg>
                             </span>
+                        </div>
+                    </div>
+                    <div class="multiple-status">
+                        <div class="checkbox">
+                            <label>
+                                <input class="checkbox__area" type="checkbox"/>
+                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                                </svg>
+                                <span class="checkbox__text">Новый</span>
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="checkbox__area" type="checkbox"/>
+                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                                </svg>
+                                <span class="checkbox__text">Расчет</span>
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="checkbox__area" type="checkbox"/>
+                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                                </svg>
+                                <span class="checkbox__text">Подтвержден</span>
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="checkbox__area" type="checkbox"/>
+                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                                </svg>
+                                <span class="checkbox__text">Отложен</span>
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="checkbox__area" type="checkbox"/>
+                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                                </svg>
+                                <span class="checkbox__text">Выполнен</span>
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input class="checkbox__area" type="checkbox"/>
+                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                                </svg>
+                                <span class="checkbox__text">Отменен</span>
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -1492,14 +1548,31 @@
                     </div>
                     <div class="order-form__card-orders">
                         <div class="order-form__card-orders-header">
-                            <div class="order-form__card-orders-row"></div>
+                            <div class="order-form__card-orders-article">Артикул</div>
+                            <div class="order-form__card-orders-name">Наименование</div>
+                            <div class="order-form__card-orders-price">Цена</div>
                         </div>
                         <div class="order-form__card-orders-body">
-                            <div class="order-form__list-orders-wrapper">
-                                <div class="order-form__card-orders-row"></div>
+                            <div class="order-form__card-orders-body-row">
+                                <div class="order-form__card-orders-article">Артикул</div>
+                                <div class="order-form__card-orders-name">Наименование</div>
+                                <div class="order-form__card-orders-price">Цена</div>
+                            </div>
+                            <div class="order-form__card-orders-body-row">
+                                <div class="order-form__card-orders-article">Артикул</div>
+                                <div class="order-form__card-orders-name">Наименование</div>
+                                <div class="order-form__card-orders-price">Цена</div>
                             </div>
                         </div>
-                        <div class="order-form__card-orders-footer"></div>
+                        <div class="order-form__card-orders-footer">
+                            <div class="plug-element plug-element-font">
+                                100%
+                            </div>
+                            <div class="order-form__order-amount">
+                                Итоговая сумма:
+                                <div class="order-form__total-amount">98 003 &#8381</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="input input_disabled">
                         <div class="input__title">Уровень лояльности</div>
@@ -1564,16 +1637,21 @@
                 <div class="order-form__content-scroll"></div>
             </div>
             <div class="order-form__footer">
-                <div class="order-form__loading-message">Ошибка или индикатор загрузки</div>
-                <div class="order-form__button-save">
-                    <button class="button button_icon-true button_bg-color-blue button_size-medium button_text-true button_text-white button_padding-medium">
-                        <span class="button__icon-container">
-                             <svg class="icon icon_color-theme-white" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                             </svg>
-                        </span>
-                        <span class="button__text-container">Сохранить</span>
-                    </button>
+                <div class="plug-element plug-element-font">
+                    100%
+                </div>
+                <div class="order-form__save-control">
+                    <div class="order-form__loading-message">Ошибка или индикатор загрузки</div>
+                    <div class="order-form__button-save">
+                        <button class="button button_icon-true button_bg-color-blue button_size-medium button_text-true button_text-white button_padding-medium">
+                            <span class="button__icon-container">
+                                 <svg class="icon icon_color-theme-white" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                                 </svg>
+                            </span>
+                            <span class="button__text-container">Сохранить</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
