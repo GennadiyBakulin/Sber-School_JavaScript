@@ -9,6 +9,7 @@
 
 .input{
     color: var(--color-style-black);
+    width: 100%;
 }
 .input .input__field-right button:last-child{
     display: none;

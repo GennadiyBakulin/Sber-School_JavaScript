@@ -66,6 +66,7 @@ body{
 }
     /*------------------Стили для админ панели-------------------------*/
 .main-wrapper{
+    position: relative;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -89,7 +90,19 @@ body{
 .header__title{
     color: var(--color-style-black);
 }
+.button-switcher-theme{
+    position: relative;
+}
+.button-switcher-theme .theme-switcher{
+    display: none;
+    position: absolute;
+    top: 1.7rem;
+    right: 0;
 
+}
+.button-switcher-theme:hover .theme-switcher{
+    display: flex;
+}
 .search{
     display: flex;
     flex-direction: column;
@@ -171,7 +184,7 @@ body{
     color: var(--color-style-white-blue);
     flex: 0 0 2.5rem;
 }
-.orders-table-content-row{
+.orders-table__row{
     display: flex;
     align-items: flex-start;
     padding: 0 0.5rem;
@@ -214,8 +227,20 @@ body{
 .orders-table_selection-records{
     color: var(--color-style-blue);
 }
-.orders-table_button-delete-records .button{
+.orders-table_button-delete-records{
+    position: relative;
+}
+.orders-table_button-delete-records>.button{
     color: var(--color-style-white-day-night);
+}
+.orders-table_button-delete-records .delete-records{
+    display: none;
+    position: absolute;
+    top: -7.2rem;
+    left: 0;
+}
+.orders-table_button-delete-records:hover .delete-records{
+    display: flex;
 }
 .pages{
     display: flex;
@@ -260,6 +285,65 @@ body{
 }
 .orders-table__people-name{
     width: 100%;
+}
+
+.order-form{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30rem;
+    height: 49rem;
+    background: var(--color-style-white);
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.15), 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+.order-form__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    gap: 0.5rem;
+    height: 3.5rem;
+    background: var(--color-style-blue);
+    color: var(--color-style-light-blue);
+}
+.order-form__content{
+    display: flex;
+    align-items: flex-start;
+    height: 42.5rem;
+    overflow-y: scroll;
+}
+.order-form__content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    width: 100%;
+}
+.order-form__content-scroll{
+    width: 0.6rem;
+}
+.order-form__card-orders{
+
+
+}
+
+
+
+
+.order-form__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    height: 3rem;
+    background: var(--color-style-white-blue);
+}
+.order-form__loading-message{
+    width: 100%;
+    text-align: right;
+    color: var(--color-style-red);
 }
 
     /*-----------------------------------------------------------------*/
