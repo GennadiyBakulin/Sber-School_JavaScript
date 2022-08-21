@@ -17,6 +17,7 @@
 @import "pages/pages.css";
 @import "plug-element/plug-element.css";
 @import "order-form/order-form.css";
+@import "scrollbar/scrollbar.css";
     /*   ----- Color Styles -----------------------------------------------------------------    */
 :root{
     --color-style-red: #F53152;
@@ -55,7 +56,7 @@
     letter-spacing: -0.0125rem;
 }
 .plug-element-font{
-    font-family: 'Exo 2', serif, sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -92,6 +93,9 @@ body{
 }
     /*-----------------------------------------------------------------*/
     /*------------------Стили для вывода блоков с элементами gui-------------------------*/
+.text-day-night{
+    color: var(--color-style-black);
+}
 .input-wrapper{
     box-sizing: border-box;
     display: flex;

@@ -8,3 +8,6 @@
     color: var(--color-style-white-blue);
     flex: 0 0 2.5rem;
 }
+.orders-table__header .orders-table__cell:hover{
+    background: var(--color-style-shade-background);
+}

@@ -10,8 +10,8 @@
     border-radius: 0.5rem;
     box-sizing: border-box;
     color: var(--color-style-black);
+    z-index: 2;
 }
-
 .theme-switcher .button{
     align-self: stretch;
 }

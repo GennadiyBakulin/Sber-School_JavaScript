@@ -1,6 +1,11 @@
 .orders-table__body{
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
     height: calc(100vh - 21.5rem);
     color: var(--color-style-black);
     overflow-y: auto;
+}
+.orders-table__body .orders-table__row:hover{
+    background: var(--color-style-shade-background);
 }

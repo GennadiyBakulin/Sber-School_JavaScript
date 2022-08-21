@@ -8,13 +8,12 @@
     box-shadow: var(--dropdown-box-shadow);
     border-radius: 0.5rem;
     box-sizing: border-box;
+    z-index: 2;
 }
-
 .single-status .button{
     justify-content: flex-start;
     align-self: stretch;
 }
-
 .single-status .button:active{
     color: var(--color-style-blue);
 }
