@@ -16,7 +16,7 @@
 @import "__error-message/order-form__error-message.css";
 
 .order-form{
-    display: none;
+    /*display: none;*/
     position: absolute;
     bottom: 0;
     right: 0;

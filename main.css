@@ -1,0 +1,99 @@
+:root{
+    --color-ref-dark: #2B2D33;
+    --color-ref-light: coral;
+    --color-ref-active: #7e9b9b;
+    --color-fon: #9cc2c2;
+    --color-white: #FFFFFF;
+    --shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2), 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2), 0 0.15rem 0.15rem rgba(0, 0, 0, 0.2)
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: black;
+}
+.text-answer{
+    position: absolute;
+    top: 1rem;
+    padding: 0.5rem 2rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.text-answer h3{
+    text-align: center;
+}
+.text-answer div{
+    margin-top: 0.5rem;
+}
+.text-answer p:last-child{
+    color: #F53152;
+}
+.navigation{
+    position: relative;
+    width: 100rem;
+    height: 100vh;
+    background-color: var(--color-fon);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+.navigation__inner-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    flex: 0 0 40%;
+    border: 0.25rem dashed black;
+}
+.navigation__link{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+.navigation__link-ref:hover{
+background-color: var(--color-fon);
+}
+.navigation__link-ref:active{
+    background-color: var(--color-ref-active);
+}
+.navigation__link-ref{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    background: var(--color-white);
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow);
+}
+.navigation__text{
+    padding: 1rem;
+    background-color: var(--color-fon);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+}
+.icon{
+    width: 5rem;
+}
+.navigation__link-ref_light{
+    fill: var(--color-ref-light);
+    color: var(--color-ref-light);
+}
+.navigation__link-ref_dark{
+    fill: var(--color-ref-dark);
+    color: var(--color-ref-dark);
+}
