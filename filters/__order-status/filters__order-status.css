@@ -1,18 +1,18 @@
-.filters__order-status{
-    position: relative;
-    width: 12rem;
+.filters__order-status {
+  position: relative;
+  width: 12rem;
 }
-.filters__order-status .input .input__field-right .icon{
-    transform: rotate(90deg);
+.filters__order-status .input .input__field-right .icon {
+  transform: rotate(90deg);
 }
-.filters__order-status .multiple-status{
-    display: none;
-    position: absolute;
-    right: 0;
+.filters__order-status .multiple-status {
+  display: none;
+  position: absolute;
+  right: 0;
 }
-.filters__order-status .input:hover+.multiple-status{
-    display: flex;
+.filters__order-status .input:hover + .multiple-status {
+  display: flex;
 }
-.filters__order-status .input:hover .input__field-right .icon{
-    transform: rotate(0deg);
+.filters__order-status .input:hover .input__field-right .icon {
+  transform: rotate(0deg);
 }

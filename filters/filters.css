@@ -2,11 +2,11 @@
 @import "__order-status/filters__order-status.css";
 @import "__order-amount/filters__order-amount.css";
 
-.filters{
-    display: flex;
-    align-items: flex-end;
-    padding: 1rem;
-    gap: 1rem;
-    width: 100%;
-    height: 5.5rem;
+.filters {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  gap: 1rem;
+  width: 100%;
+  height: 5.5rem;
 }

@@ -1,10 +1,10 @@
-.orders-table__status{
-    min-width: 11rem;
+.orders-table__status {
+  min-width: 11rem;
 }
-.orders-table__status.icon_color-theme-green{
-    color: var(--color-style-green);
-    opacity: 0.5;
+.orders-table__status.icon_color-theme-green {
+  color: var(--color-style-green);
+  opacity: 0.5;
 }
-.orders-table__status.icon_color-theme-black{
-    opacity: 0.5;
+.orders-table__status.icon_color-theme-black {
+  opacity: 0.5;
 }

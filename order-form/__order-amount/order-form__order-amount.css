@@ -1,8 +1,8 @@
-.order-form__order-amount{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    color: var(--color-style-black);
+.order-form__order-amount {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  color: var(--color-style-black);
 }

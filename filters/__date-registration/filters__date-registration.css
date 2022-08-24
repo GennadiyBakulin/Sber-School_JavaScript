@@ -1,9 +1,9 @@
-.filters__date-registration{
-    display: flex;
-    align-items: flex-end;
-    gap: 0.5rem;
-    width: 18rem;
+.filters__date-registration {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  width: 18rem;
 }
-.filters__date-registration .input{
-    flex-basis: 50%;
+.filters__date-registration .input {
+  flex-basis: 50%;
 }

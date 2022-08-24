@@ -1,4 +1,4 @@
-.searchbar_filled .button{
-    display: inline !important;
-    stroke: var(--color-style-light-blue);
+.searchbar_filled .button {
+  display: inline !important;
+  stroke: var(--color-style-light-blue);
 }

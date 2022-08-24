@@ -1,12 +1,12 @@
-.searchbar__text{
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    background-color: var(--color-style-white);
-    width: 100%;
-    color: var(--color-style-black);
+.searchbar__text {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: var(--color-style-white);
+  width: 100%;
+  color: var(--color-style-black);
 }
 
-.searchbar__text::placeholder{
-    color: var(--color-style-light-blue);
+.searchbar__text::placeholder {
+  color: var(--color-style-light-blue);
 }

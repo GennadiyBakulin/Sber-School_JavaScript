@@ -1,15 +1,15 @@
-.input_disabled .input__field{
-    background-color: var(--color-style-light-blue);
-    border: 0.0625rem solid var(--color-style-blue);
+.input_disabled .input__field {
+  background-color: var(--color-style-light-blue);
+  border: 0.0625rem solid var(--color-style-blue);
 }
 
-.input_disabled .input__field-center{
-    background-color: var(--color-style-light-blue);
+.input_disabled .input__field-center {
+  background-color: var(--color-style-light-blue);
 }
 
-.input_disabled .input__field-right button:last-child{
-    display: block !important;
+.input_disabled .input__field-right button:last-child {
+  display: block !important;
 }
-.input_disabled .input__field-right button:first-child{
-    display: none !important;
+.input_disabled .input__field-right button:first-child {
+  display: none !important;
 }

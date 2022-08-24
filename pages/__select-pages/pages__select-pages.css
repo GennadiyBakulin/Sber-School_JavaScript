@@ -1,7 +1,7 @@
-.pages__select-pages{
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-    width: 8.25rem;
-    color: var(--color-style-blue);
+.pages__select-pages {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 8.25rem;
+  color: var(--color-style-blue);
 }

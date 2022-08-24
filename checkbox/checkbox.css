@@ -3,12 +3,12 @@
 @import "__text/checkbox__text.css";
 
 .checkbox {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
-.checkbox label{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.checkbox label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }

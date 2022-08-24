@@ -1,18 +1,18 @@
-.multiple-status{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    width: 10rem;
-    gap: 1rem;
-    background-color: var(--color-style-white);
-    box-shadow: var(--dropdown-box-shadow);
-    border-radius: 0.5rem;
-    box-sizing: border-box;
-    color: var(--color-style-black);
-    z-index: 2;
+.multiple-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  width: 10rem;
+  gap: 1rem;
+  background-color: var(--color-style-white);
+  box-shadow: var(--dropdown-box-shadow);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: var(--color-style-black);
+  z-index: 2;
 }
-.multiple-status .checkbox{
-    justify-content: flex-start;
-    align-self: stretch;
+.multiple-status .checkbox {
+  justify-content: flex-start;
+  align-self: stretch;
 }

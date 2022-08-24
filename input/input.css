@@ -7,10 +7,10 @@
 @import "_disabled/input_disabled.css";
 @import "_empty/input_empty.css";
 
-.input{
-    color: var(--color-style-black);
-    width: 100%;
+.input {
+  color: var(--color-style-black);
+  width: 100%;
 }
-.input .input__field-right button:last-child{
-    display: none;
+.input .input__field-right button:last-child {
+  display: none;
 }

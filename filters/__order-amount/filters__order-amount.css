@@ -1,9 +1,9 @@
-.filters__order-amount{
-    display: flex;
-    align-items: flex-end;
-    gap: 0.5rem;
-    width: 16rem;
+.filters__order-amount {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  width: 16rem;
 }
-.filters__order-amount .input{
-    flex-basis: 50%;
+.filters__order-amount .input {
+  flex-basis: 50%;
 }

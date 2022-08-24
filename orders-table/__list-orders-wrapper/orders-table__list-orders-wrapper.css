@@ -1,6 +1,6 @@
-.orders-table__list-orders-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
+.orders-table__list-orders-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
 }

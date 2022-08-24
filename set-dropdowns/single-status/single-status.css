@@ -1,19 +1,19 @@
-.single-status{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.5rem 0;
-    width: 10rem;
-    background-color: var(--color-style-white);
-    box-shadow: var(--dropdown-box-shadow);
-    border-radius: 0.5rem;
-    box-sizing: border-box;
-    z-index: 2;
+.single-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem 0;
+  width: 10rem;
+  background-color: var(--color-style-white);
+  box-shadow: var(--dropdown-box-shadow);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  z-index: 2;
 }
-.single-status .button{
-    justify-content: flex-start;
-    align-self: stretch;
+.single-status .button {
+  justify-content: flex-start;
+  align-self: stretch;
 }
-.single-status .button:active{
-    color: var(--color-style-blue);
+.single-status .button:active {
+  color: var(--color-style-blue);
 }

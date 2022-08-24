@@ -1,6 +1,6 @@
-.order-form__content{
-    display: flex;
-    align-items: flex-start;
-    height: 42.5rem;
-    overflow-y: scroll;
+.order-form__content {
+  display: flex;
+  align-items: flex-start;
+  height: 42.5rem;
+  overflow-y: scroll;
 }
