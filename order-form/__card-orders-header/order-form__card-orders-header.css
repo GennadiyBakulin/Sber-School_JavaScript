@@ -1,9 +1,0 @@
-.order-form__card-orders-header {
-  display: flex;
-  align-items: flex-start;
-  padding: 0 0.5rem;
-  width: 100%;
-  height: 2rem;
-  background: var(--color-style-blue);
-  color: var(--color-style-white-blue);
-}

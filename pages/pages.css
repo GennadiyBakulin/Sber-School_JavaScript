@@ -1,8 +1,12 @@
-@import "__select-pages/pages__select-pages.css";
-@import "__current-pages/pages__current-pages.css";
-
 .pages {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+}
+.pages__select-pages {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 8.25rem;
+  color: var(--color-style-blue);
 }

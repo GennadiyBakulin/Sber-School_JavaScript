@@ -1,7 +1,3 @@
-@import "__text/searchbar__text.css";
-@import "__icon-search/searchbar__icon-search.css";
-@import "_filled/searchbar_filled.css";
-
 .searchbar {
   display: flex;
   justify-content: space-between;
@@ -14,7 +10,26 @@
   background-color: var(--color-style-white);
   box-sizing: border-box;
 }
-
 .searchbar .button {
   display: none;
+}
+.searchbar__icon-search {
+  width: 1rem;
+  height: 1rem;
+  stroke: var(--color-style-blue);
+}
+.searchbar__text {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: var(--color-style-white);
+  width: 100%;
+  color: var(--color-style-black);
+}
+.searchbar__text::placeholder {
+  color: var(--color-style-light-blue);
+}
+.searchbar_filled .button {
+  display: inline;
+  stroke: var(--color-style-light-blue);
 }

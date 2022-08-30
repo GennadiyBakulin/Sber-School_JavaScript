@@ -1,20 +1,3 @@
-@import "__header/order-form__header.css";
-@import "__content/order-form__content.css";
-@import "__content-wrapper/order-form__content-wrapper.css";
-@import "__content-scroll/order-form__content-scroll.css";
-@import "__card-orders/order-form__card-orders.css";
-@import "__card-orders-header/order-form__card-orders-header.css";
-@import "__card-orders-cell-article/order-form__card-orders-cell-article.css";
-@import "__card-orders-cell-name/order-form__card-orders-cell-name.css";
-@import "__card-orders-cell-price/order-form__card-orders-cell-price.css";
-@import "__card-orders-body/order-form__card-orders-body.css";
-@import "__card-orders-body-row/order-form__card-orders-body-row.css";
-@import "__card-orders-footer/order-form__card-orders-footer.css";
-@import "__order-amount/order-form__order-amount.css";
-@import "__footer/order-form__footer.css";
-@import "__save-control/order-form__save-control.css";
-@import "__error-message/order-form__error-message.css";
-
 .order-form {
   /*display: none;*/
   position: absolute;
@@ -25,4 +8,112 @@
   background: var(--color-style-white);
   box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.15),
     0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+.order-form__card-orders {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.order-form__card-orders-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.order-form__card-orders-body-row {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.5rem;
+  width: 100%;
+  height: 2.5rem;
+  border-bottom: 1px solid var(--color-style-white-blue);
+  color: var(--color-style-black);
+}
+.order-form__card-orders-cell-article {
+  padding: 0.5rem;
+  text-align: left;
+  min-width: 6rem;
+}
+.order-form__card-orders-cell-name {
+  padding: 0.5rem;
+  text-align: left;
+  flex-grow: 1;
+}
+.order-form__card-orders-cell-price {
+  padding: 0.5rem;
+  text-align: left;
+  min-width: 6rem;
+}
+.order-form__card-orders-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  height: 2rem;
+  background: var(--color-style-white-blue);
+}
+.order-form__card-orders-header {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0.5rem;
+  width: 100%;
+  height: 2rem;
+  background: var(--color-style-blue);
+  color: var(--color-style-white-blue);
+}
+.order-form__content {
+  display: flex;
+  align-items: flex-start;
+  height: 42.5rem;
+  overflow-y: scroll;
+}
+.order-form__content-scroll {
+  width: 0.6rem;
+}
+.order-form__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  width: 100%;
+}
+.order-form__error-message {
+  color: var(--color-style-red);
+}
+.order-form__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+  height: 3rem;
+  background: var(--color-style-white-blue);
+  width: 100%;
+}
+.order-form__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  gap: 0.5rem;
+  height: 3.5rem;
+  background: var(--color-style-blue);
+  color: var(--color-style-light-blue);
+}
+.order-form__order-amount {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  color: var(--color-style-black);
+}
+.order-form__save-control {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
 }

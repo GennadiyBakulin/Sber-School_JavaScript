@@ -1,4 +1,12 @@
-@import "__area/radio__area.css";
-
-.radio {
+.radio__area {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background: var(--color-style-white);
+  border: 0.0625rem solid var(--color-style-light-blue);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+.radio__area:checked {
+  border: 0.25rem solid var(--color-style-blue);
 }
