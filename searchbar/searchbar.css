@@ -1,8 +1,9 @@
 .searchbar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  padding: 0.25rem 1.75rem 0.25rem 2rem;
   gap: 0.25rem;
   height: 2rem;
   border-radius: 0.25rem;
@@ -10,13 +11,19 @@
   background-color: var(--color-style-white);
   box-sizing: border-box;
 }
-.searchbar .button {
-  display: none;
-}
 .searchbar__icon-search {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
   width: 1rem;
   height: 1rem;
   stroke: var(--color-style-blue);
+}
+.searchbar .button {
+  position: absolute;
+  right: 0.25rem;
+  top: 0.25rem;
+  display: none;
 }
 .searchbar__text {
   box-sizing: border-box;
@@ -30,6 +37,5 @@
   color: var(--color-style-light-blue);
 }
 .searchbar_filled .button {
-  display: inline;
-  stroke: var(--color-style-light-blue);
+  display: block;
 }
