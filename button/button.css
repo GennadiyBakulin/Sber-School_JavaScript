@@ -36,6 +36,11 @@
   height: 1.5rem;
   padding: 0.25rem;
 }
-.button_bg-color-red {
+.button_theme-red {
   background-color: var(--color-style-red);
+  border-radius: 0.25rem;
+  color: var(--color-style-white);
+}
+.button_large{
+height: 2rem;
 }

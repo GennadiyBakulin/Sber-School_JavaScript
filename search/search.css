@@ -15,7 +15,7 @@
 .search__search-wrapper {
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 0.5rem;
   width: 38rem;
 }
 .search__search-wrapper .searchbar {

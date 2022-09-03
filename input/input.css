@@ -2,9 +2,11 @@
   color: var(--color-style-black);
   width: 100%;
 }
+
 .input__title {
   text-align: left;
 }
+
 .input__field {
   position: relative;
   box-sizing: border-box;
@@ -19,6 +21,7 @@
   border: 0.0625rem solid var(--color-style-blue);
   background-color: var(--color-style-white);
 }
+
 .input__field-text {
   box-sizing: border-box;
   border: none;
@@ -27,49 +30,62 @@
   width: 100%;
   color: var(--color-style-black);
 }
+
 .input__field-text::placeholder {
   color: var(--color-style-light-blue);
 }
+
 .input__field > .button {
   position: absolute;
   right: 0.25rem;
   top: 0.25rem;
 }
+
 .input__field > .icon {
   position: absolute;
   right: 0.5rem;
   top: 0.5rem;
 }
+
 .input__field > .button,
 .input__field > .icon {
   display: none;
 }
+
 .input__field-text:focus + .button {
   display: block;
 }
+
 .input_incorrect .input__field {
   border: 0.0625rem solid var(--color-style-red);
   background-color: var(--color-style-white);
 }
+
 .input_incorrect .input__field-text ~ .button {
   display: block;
 }
+
 .input_disabled .input__field {
   background-color: var(--color-style-light-blue);
   border: 0.0625rem solid var(--color-style-blue);
 }
+
 .input_disabled .input__field-text {
   background-color: var(--color-style-light-blue);
 }
+
 .input_disabled .input__field-text ~ .icon {
   display: block;
 }
+
 .input_status-order .input__field .icon {
   display: block;
 }
+
 .input_status-order .input__field .icon {
   transform: rotate(90deg);
 }
+
 .input_status-order:hover .input__field .icon {
   transform: rotate(0deg);
 }
