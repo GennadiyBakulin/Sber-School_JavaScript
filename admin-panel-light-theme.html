@@ -69,18 +69,31 @@
             <div class="search__search-wrapper">
                 <div class="search__searchbar-wrapper">
                     <div class="searchbar">
-                        <svg class="searchbar__icon-search" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5"
-                                  fill="none"/>
+                        <svg
+                                class="searchbar__icon-search"
+                                viewBox="0 0 16 16"
+                                xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                    d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5"
+                                    fill="none"
+                            />
                         </svg>
-                        <input class="searchbar__text" type="text" placeholder="Номер заказа или ФИО">
+                        <input
+                                class="searchbar__text"
+                                type="text"
+                                placeholder="Номер заказа или ФИО"
+                        />
                         <button class="button button_size-small button_padding-small-square">
-                                <span class="button__icon-container">
-                                    <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
-                                    </svg>
-                                </span>
+          <span class="button__icon-container">
+            <svg
+                    class="icon icon_color-theme-light-blue"
+                    viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
+            </svg>
+          </span>
                         </button>
                     </div>
                 </div>
@@ -122,180 +135,227 @@
             <div class="filters">
                 <div class="filters__date-registration">
                     <div class="input">
-                        <div class="input__title">Дата оформления</div>
-                        <div class="input__field">
-                            <span class="input__field-left">с</span>
-                            <input class="input__field-text" type="text" placeholder="дд.мм.гггг">
-                            <span class="input__field-right">
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
-                                        </svg>
-                                    </span>
+                        <label class="input__title"
+                        >Дата оформления
+                            <span class="input__field">с
+                                <input
+                                        class="input__field-text"
+                                        type="text"
+                                        placeholder="Введите"
+                                />
+                                <button
+                                        class="button button_size-small button_padding-small-square"
+                                >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
                                 </button>
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                                  stroke="none"/>
-                                            <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                                  stroke="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
+                                <svg
+                                        class="icon icon_color-theme-black"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                            stroke="none"
+                                    />
+                                    <path
+                                            d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                            stroke="none"
+                                    />
+                                </svg>
                             </span>
-                        </div>
+                        </label>
                     </div>
-                    <div class="input input_empty">
-                        <div class="input__title"></div>
-                        <div class="input__field">
-                            <span class="input__field-left">по</span>
-                            <input class="input__field-text" type="text" placeholder="дд.мм.гггг">
-                            <span class="input__field-right">
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
-                                        </svg>
-                                    </span>
+                    <div class="input">
+                        <label class="input__title"
+                        >
+                            <span class="input__field">по
+                                <input
+                                        class="input__field-text"
+                                        type="text"
+                                        placeholder="Введите"
+                                />
+                                <button
+                                        class="button button_size-small button_padding-small-square"
+                                >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
                                 </button>
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                                  stroke="none"/>
-                                            <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                                  stroke="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
-                             </span>
-                        </div>
+                                <svg
+                                        class="icon icon_color-theme-black"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                            stroke="none"
+                                    />
+                                    <path
+                                            d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                            stroke="none"
+                                    />
+                                </svg>
+                            </span>
+                        </label>
                     </div>
                 </div>
                 <div class="filters__order-status">
-                    <div class="input">
-                        <div class="input__title">Статус заказа</div>
-                        <div class="input__field">
-                            <span class="input__field-left">Любой</span>
-                            <span class="input__field-right">
+                    <div class="input input_status-order">
+                        <label class="input__title"
+                        >Статус заказа
+                            <span class="input__field">Новый
                                 <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 6H11V6.5L8.25 11H7.75L5 6.5V6Z" stroke="none"/>
                                 </svg>
                             </span>
-                        </div>
+                        </label>
                     </div>
                     <div class="multiple-status">
-                            <label class="checkbox">
-                                <input class="checkbox__area" type="checkbox"/>
-                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                                </svg>
-                                <span class="checkbox__text">Новый</span>
-                            </label>
-                            <label class="checkbox">
-                                <input class="checkbox__area" type="checkbox"/>
-                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                                </svg>
-                                <span class="checkbox__text">Расчет</span>
-                            </label>
-                            <label class="checkbox">
-                                <input class="checkbox__area" type="checkbox"/>
-                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                                </svg>
-                                <span class="checkbox__text">Подтвержден</span>
-                            </label>
-                            <label class="checkbox">
-                                <input class="checkbox__area" type="checkbox"/>
-                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                                </svg>
-                                <span class="checkbox__text">Отложен</span>
-                            </label>
-                            <label class="checkbox">
-                                <input class="checkbox__area" type="checkbox"/>
-                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                                </svg>
-                                <span class="checkbox__text">Выполнен</span>
-                            </label>
-                            <label class="checkbox">
-                                <input class="checkbox__area" type="checkbox"/>
-                                <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
-                                </svg>
-                                <span class="checkbox__text">Отменен</span>
-                            </label>
+                        <label class="checkbox">
+                            <input class="checkbox__area" type="checkbox"/>
+                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                            </svg>
+                            <span class="checkbox__text">Новый</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox__area" type="checkbox"/>
+                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                            </svg>
+                            <span class="checkbox__text">Расчет</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox__area" type="checkbox"/>
+                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                            </svg>
+                            <span class="checkbox__text">Подтвержден</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox__area" type="checkbox"/>
+                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                            </svg>
+                            <span class="checkbox__text">Отложен</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox__area" type="checkbox"/>
+                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                            </svg>
+                            <span class="checkbox__text">Выполнен</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox__area" type="checkbox"/>
+                            <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
+                            </svg>
+                            <span class="checkbox__text">Отменен</span>
+                        </label>
                     </div>
                 </div>
                 <div class="filters__order-amount">
                     <div class="input">
-                        <div class="input__title">Сумма заказа</div>
-                        <div class="input__field">
-                            <span class="input__field-left">от</span>
-                            <input class="input__field-text" type="text" placeholder="&#8381">
-                            <span class="input__field-right">
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
-                                        </svg>
-                                    </span>
+                        <label class="input__title"
+                        >Сумма заказа
+                            <span class="input__field">от
+                                <input
+                                        class="input__field-text"
+                                        type="text"
+                                        placeholder="Введите"
+                                />
+                                <button
+                                        class="button button_size-small button_padding-small-square"
+                                >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
                                 </button>
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                                  stroke="none"/>
-                                            <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                                  stroke="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
+                                <svg
+                                        class="icon icon_color-theme-black"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                            stroke="none"
+                                    />
+                                    <path
+                                            d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                            stroke="none"
+                                    />
+                                </svg>
                             </span>
-                        </div>
+                        </label>
                     </div>
-                    <div class="input input_empty">
-                        <div class="input__title"></div>
-                        <div class="input__field">
-                            <span class="input__field-left">до</span>
-                            <input class="input__field-text" type="text" placeholder="&#8381">
-                            <span class="input__field-right">
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
-                                        </svg>
-                                    </span>
+                    <div class="input">
+                        <label class="input__title"
+                        >
+                            <span class="input__field">до
+                                <input
+                                        class="input__field-text"
+                                        type="text"
+                                        placeholder="Введите"
+                                />
+                                <button
+                                        class="button button_size-small button_padding-small-square"
+                                >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
                                 </button>
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                                  stroke="none"/>
-                                            <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                                  stroke="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
+                                <svg
+                                        class="icon icon_color-theme-black"
+                                        viewBox="0 0 16 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                            stroke="none"
+                                    />
+                                    <path
+                                            d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                            stroke="none"
+                                    />
+                                </svg>
                             </span>
-                        </div>
+                        </label>
                     </div>
                 </div>
                 <div class="filters__button-apply">
@@ -1290,62 +1350,86 @@
         <div class="order-form__content">
             <div class="order-form__content-wrapper">
                 <div class="input input_disabled">
-                    <div class="input__title">Дата и время заказа</div>
-                    <div class="input__field">
-                        <span class="input__field-left"></span>
-                        <input class="input__field-text" type="text" placeholder="Введите">
-                        <span class="input__field-right">
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                                  stroke="none"/>
-                                            <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                                  stroke="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
-                            </span>
-                    </div>
+                    <label class="input__title"
+                    >Дата и время заказа
+                        <span class="input__field">
+                            <input
+                                    class="input__field-text"
+                                    type="text"
+                                    placeholder="Введите"
+                            />
+                            <button
+                                    class="button button_size-small button_padding-small-square"
+                            >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
+                            </button>
+                            <svg
+                                    class="icon icon_color-theme-black"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                        stroke="none"
+                                />
+                                <path
+                                        d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                        stroke="none"
+                                />
+                            </svg>
+                        </span>
+                    </label>
                 </div>
-                <div class="input input_empty">
-                    <div class="input__title">ФИО покупателя</div>
-                    <div class="input__field">
-                        <span class="input__field-left"></span>
-                        <input class="input__field-text" type="text" placeholder="Введите">
-                        <span class="input__field-right">
-                    <button class="button button_size-small button_padding-small-square">
-                        <span class="button__icon-container">
-                            <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
+                <div class="input">
+                    <label class="input__title"
+                    >ФИО покупателя
+                        <span class="input__field">
+                            <input
+                                    class="input__field-text"
+                                    type="text"
+                                    placeholder="Введите"
+                            />
+                            <button
+                                    class="button button_size-small button_padding-small-square"
+                            >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
+                            </button>
+                            <svg
+                                    class="icon icon_color-theme-black"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                        stroke="none"
+                                />
+                                <path
+                                        d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                        stroke="none"
+                                />
                             </svg>
                         </span>
-                    </button>
-                    <button class="button button_size-small button_padding-small-square">
-                        <span class="button__icon-container">
-                            <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                      stroke="none"/>
-                                <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                      stroke="none"/>
-                            </svg>
-                        </span>
-                    </button>
-                </span>
-                    </div>
+                    </label>
                 </div>
                 <div class="order-form__card-orders">
                     <div class="order-form__card-orders-header">
@@ -1376,74 +1460,97 @@
                     </div>
                 </div>
                 <div class="input input_disabled">
-                    <div class="input__title">Уровень лояльности</div>
-                    <div class="input__field">
-                        <span class="input__field-left"></span>
-                        <input class="input__field-text" type="text" placeholder="Введите">
-                        <span class="input__field-right">
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <button class="button button_size-small button_padding-small-square">
-                                    <span class="button__icon-container">
-                                        <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                                  stroke="none"/>
-                                            <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                                  stroke="none"/>
-                                        </svg>
-                                    </span>
-                                </button>
-                            </span>
-                    </div>
+                    <label class="input__title"
+                    >Уровень лояльности
+                        <span class="input__field">
+                            <input
+                                    class="input__field-text"
+                                    type="text"
+                                    placeholder="Введите"
+                            />
+                            <button
+                                    class="button button_size-small button_padding-small-square"
+                            >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
+                            </button>
+                            <svg
+                                    class="icon icon_color-theme-black"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                        stroke="none"
+                                />
+                                <path
+                                        d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                        stroke="none"
+                                />
+                            </svg>
+                        </span>
+                    </label>
                 </div>
-                <div class="input">
-                    <div class="input__title">Статус заказа</div>
-                    <div class="input__field">
-                        <span class="input__field-left">Новый</span>
-                        <span class="input__field-right">
-                                <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 6H11V6.5L8.25 11H7.75L5 6.5V6Z" stroke="none"/>
-                                </svg>
-                            </span>
-                    </div>
-                </div>
-                <div class="input input_incorrect">
-                    <div class="input__title">Код подтверждения</div>
-                    <div class="input__field">
-                        <span class="input__field-left"></span>
-                        <input class="input__field-text" type="text" placeholder="Введите">
-                        <span class="input__field-right">
-                    <button class="button button_size-small button_padding-small-square">
-                        <span class="button__icon-container">
+                <div class="input input_status-order">
+                    <label class="input__title"
+                    >Статус заказа
+                        <span class="input__field">Новый
                             <svg class="icon icon_color-theme-light-blue" viewBox="0 0 16 16"
                                  xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
+                                <path d="M5 6H11V6.5L8.25 11H7.75L5 6.5V6Z" stroke="none"/>
                             </svg>
                         </span>
-                    </button>
-                    <button class="button button_size-small button_padding-small-square">
-                        <span class="button__icon-container">
-                            <svg class="icon icon_color-theme-black" viewBox="0 0 16 16"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
-                                      stroke="none"/>
-                                <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
-                                      stroke="none"/>
+                    </label>
+                </div>
+                <div class="input input_incorrect">
+                    <label class="input__title"
+                    >Код подтверждения
+                        <span class="input__field">
+                            <input
+                                    class="input__field-text"
+                                    type="text"
+                                    placeholder="Введите"
+                            />
+                            <button
+                                    class="button button_size-small button_padding-small-square"
+                            >
+              <span class="button__icon-container">
+                <svg
+                        class="icon icon_color-theme-light-blue"
+                        viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+                </svg>
+              </span>
+                            </button>
+                            <svg
+                                    class="icon icon_color-theme-black"
+                                    viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z"
+                                        stroke="none"
+                                />
+                                <path
+                                        d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z"
+                                        stroke="none"
+                                />
                             </svg>
                         </span>
-                    </button>
-                </span>
-                    </div>
+                    </label>
                 </div>
             </div>
             <div class="order-form__content-scroll"></div>

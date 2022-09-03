@@ -11,6 +11,9 @@
   border-radius: 0.5rem;
   box-sizing: border-box;
 }
+.radio__text {
+  color: var(--color-style-black);
+}
 .radio__area:checked {
   border: 0.25rem solid var(--color-style-blue);
 }
