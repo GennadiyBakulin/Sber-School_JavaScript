@@ -1,3 +1,7 @@
+.radio {
+  display: flex;
+  align-items: center;
+}
 .radio__area {
   appearance: none;
   width: 1rem;
@@ -9,4 +13,11 @@
 }
 .radio__area:checked {
   border: 0.25rem solid var(--color-style-blue);
+}
+.radio__area:checked ~ .radio__text {
+  color: var(--color-style-blue);
+}
+.radio:hover,
+.radio__area:hover {
+  cursor: pointer;
 }

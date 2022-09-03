@@ -10,10 +10,12 @@
   box-sizing: border-box;
   z-index: 2;
 }
-.single-status .button {
+.single-status .radio {
   justify-content: flex-start;
   align-self: stretch;
+  height: 2rem;
+  padding: 0.5rem 1rem;
 }
-.single-status .button:active {
-  color: var(--color-style-blue);
+.single-status .radio__area {
+  display: none;
 }
