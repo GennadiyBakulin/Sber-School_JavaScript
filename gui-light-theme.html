@@ -221,44 +221,26 @@
     </div>
     <div class="text-day-night">Checkbox и Radio</div>
     <div class="checkbox-radio-wrapper">
-      <div class="checkbox">
-        <label>
-          <input
-            class="checkbox__area"
-            type="checkbox"
-            name="checkbox-button"
-          />
-          <svg
-            class="checkbox__icon"
-            viewBox="0 0 16 16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-              stroke="none"
-            />
-          </svg>
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input
-            class="checkbox__area"
-            type="checkbox"
-            name="checkbox-button"
-          />
-          <svg
-            class="checkbox__icon"
-            viewBox="0 0 16 16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-              stroke="none"
-            />
-          </svg>
-        </label>
-      </div>
+      <label class="checkbox">
+        <input class="checkbox__area" type="checkbox" name="checkbox-button" />
+        <svg
+          class="checkbox__icon"
+          viewBox="0 0 16 16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none" />
+        </svg>
+      </label>
+      <label class="checkbox">
+        <input class="checkbox__area" type="checkbox" name="checkbox-button" />
+        <svg
+          class="checkbox__icon"
+          viewBox="0 0 16 16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none" />
+        </svg>
+      </label>
       <label class="radio">
         <input class="radio__area" type="radio" name="radio-button" /><span
           class="radio__text"
@@ -364,102 +346,90 @@
         </button>
       </div>
       <div class="multiple-status">
-        <div class="checkbox">
-          <label>
-            <input class="checkbox__area" type="checkbox" />
-            <svg
-              class="checkbox__icon"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-                stroke="none"
-              />
-            </svg>
-            <span class="checkbox__text">Новый</span>
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input class="checkbox__area" type="checkbox" />
-            <svg
-              class="checkbox__icon"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-                stroke="none"
-              />
-            </svg>
-            <span class="checkbox__text">Расчет</span>
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input class="checkbox__area" type="checkbox" />
-            <svg
-              class="checkbox__icon"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-                stroke="none"
-              />
-            </svg>
-            <span class="checkbox__text">Подтвержден</span>
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input class="checkbox__area" type="checkbox" />
-            <svg
-              class="checkbox__icon"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-                stroke="none"
-              />
-            </svg>
-            <span class="checkbox__text">Отложен</span>
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input class="checkbox__area" type="checkbox" />
-            <svg
-              class="checkbox__icon"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-                stroke="none"
-              />
-            </svg>
-            <span class="checkbox__text">Выполнен</span>
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input class="checkbox__area" type="checkbox" />
-            <svg
-              class="checkbox__icon"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
-                stroke="none"
-              />
-            </svg>
-            <span class="checkbox__text">Отменен</span>
-          </label>
-        </div>
+        <label class="checkbox">
+          <input class="checkbox__area" type="checkbox" />
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
+              stroke="none"
+            />
+          </svg>
+          <span class="checkbox__text">Новый</span>
+        </label>
+        <label class="checkbox">
+          <input class="checkbox__area" type="checkbox" />
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
+              stroke="none"
+            />
+          </svg>
+          <span class="checkbox__text">Расчет</span>
+        </label>
+        <label class="checkbox">
+          <input class="checkbox__area" type="checkbox" />
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
+              stroke="none"
+            />
+          </svg>
+          <span class="checkbox__text">Подтвержден</span>
+        </label>
+        <label class="checkbox">
+          <input class="checkbox__area" type="checkbox" />
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
+              stroke="none"
+            />
+          </svg>
+          <span class="checkbox__text">Отложен</span>
+        </label>
+        <label class="checkbox">
+          <input class="checkbox__area" type="checkbox" />
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
+              stroke="none"
+            />
+          </svg>
+          <span class="checkbox__text">Выполнен</span>
+        </label>
+        <label class="checkbox">
+          <input class="checkbox__area" type="checkbox" />
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z"
+              stroke="none"
+            />
+          </svg>
+          <span class="checkbox__text">Отменен</span>
+        </label>
       </div>
       <div class="single-status">
         <label class="radio">

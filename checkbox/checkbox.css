@@ -1,8 +1,5 @@
 .checkbox {
   position: relative;
-  display: inline-block;
-}
-.checkbox label {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -36,4 +33,7 @@
 }
 .checkbox__text {
   margin-left: 0.5rem;
+}
+.checkbox:hover {
+  cursor: pointer;
 }
