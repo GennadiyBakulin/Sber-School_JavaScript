@@ -114,6 +114,11 @@
   color: var(--color-style-light-blue);
 }
 
+.order-form__header .button .icon-large {
+  stroke: var(--color-style-white);
+  fill: var(--color-style-white);
+}
+
 .order-form__order-amount {
   display: flex;
   justify-content: flex-end;

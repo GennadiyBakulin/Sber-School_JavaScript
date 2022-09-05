@@ -89,3 +89,7 @@
 .input_status-order:hover .input__field .icon {
   transform: rotate(0deg);
 }
+.input .button .icon{
+  stroke: var(--color-style-light-blue);
+  fill: var(--color-style-light-blue);
+}

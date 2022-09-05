@@ -39,3 +39,7 @@
 .searchbar_filled .button {
   display: block;
 }
+.searchbar .button .icon{
+  stroke: var(--color-style-light-blue);
+  fill: var(--color-style-light-blue);
+}
